@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111810">
+  <title>TH Sprichwort — Los Santos weiß Bescheid</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header><a class="brand" href="./">TH<span>SPRICHWORT</span></a><span class="badge">WEISHEIT AUS LOS SANTOS</span></header>
+  <main>
+    <p class="eyebrow">100 % STUMPFSINN · 0 STERNE FAHNDUNG</p>
+    <section class="card" aria-label="Sprichwortgenerator" aria-busy="true" id="generator">
+      <blockquote id="spruch" aria-live="polite" aria-atomic="true">Die Weisheiten werden geladen …</blockquote>
+      <p id="quelle" class="source"></p>
+      <div class="actions">
+        <button id="generate" disabled>Neues Sprichwort <span aria-hidden="true">↗</span></button>
+        <button id="copy" class="secondary" disabled>Spruch kopieren</button>
+      </div>
+      <p id="status" class="status" role="status"></p>
+    </section>
+    <p class="footnote">Oma hätte das anders gesagt, aber die können wir ja nicht mehr fragen.</p>
+  </main>
+  <footer><span>TH SPRICHWORT</span></footer>
+</body>
+</html>

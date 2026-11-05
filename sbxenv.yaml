@@ -1,0 +1,13 @@
+schemaVersion: '1'
+name: th
+agent: codex
+workspace: .
+# additionalWorkspaces:
+  # - path: ./../zend-backend/frontend
+
+env:
+  NODE_ENV: test
+
+ports:
+  - sandbox: 3000
+    host: 3000
